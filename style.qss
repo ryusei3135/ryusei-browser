@@ -1,0 +1,45 @@
+/* 全体背景 */
+QMainWindow {
+    background-color: #fe3737;
+}
+
+/* ツールバー */
+QToolBar {
+    background-color: #fe3737;
+    border: none;
+    padding: 6px;
+    spacing: 8px;
+}
+
+/* ツールボタン */
+QToolButton {
+    background: transparent;
+    border-radius: 6px;
+    padding: 6px;
+    color: white;
+}
+
+QToolButton:hover {
+    background-color: #ff8c00;
+}
+
+/* URLバー */
+QLineEdit {
+    background-color: #ff8c00;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    padding: 6px 12px;
+    color: white;
+    font-size: 14px;
+    width: 60%;
+}
+
+QLineEdit:focus {
+    border: 3px solid #ffea00;
+}
+
+/* ステータスバー */
+QStatusBar {
+    background-color: #2b2b2b;
+    color: #aaa;
+}
